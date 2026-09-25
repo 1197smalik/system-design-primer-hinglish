@@ -348,7 +348,7 @@ Requirements gather करें और problem का scope तय करें
 
 [Exercise और solution देखें](solutions/system_design/scaling_aws/README.md)
 
-![Imgur](images/jj3A5N8.png)
+![Imgur](images/jj3A5N8-hinglish.png)
 
 ## Object-oriented design interview questions with solutions (ऑब्जेक्ट-ओरिएंटेड डिज़ाइन इंटरव्यू सवाल व solutions)
 
