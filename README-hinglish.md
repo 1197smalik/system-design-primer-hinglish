@@ -5,7 +5,7 @@
 # The System Design Primer (सिस्टम डिज़ाइन प्राइमर)
 
 <p align="center">
-  <img src="images/jj3A5N8.png">
+  <img src="images/jj3A5N8-hinglish.png">
   <br/>
 </p>
 
