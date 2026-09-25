@@ -50,76 +50,76 @@ Additional topics for interview prep (सिस्टम डिज़ाइन �
   <br/>
 </p>
 
-The provided [Anki flashcard decks](https://apps.ankiweb.net/) use spaced repetition to help you retain key system design concepts.
+दी गई [Anki flashcard decks](https://apps.ankiweb.net/) spaced repetition का इस्तेमाल करती हैं ताकि आपको key system design concepts याद रखने में मदद मिले।
 
 * [System design deck](https://github.com/donnemartin/system-design-primer/tree/master/resources/flash_cards/System%20Design.apkg)
 * [System design exercises deck](https://github.com/donnemartin/system-design-primer/tree/master/resources/flash_cards/System%20Design%20Exercises.apkg)
 * [Object oriented design exercises deck](https://github.com/donnemartin/system-design-primer/tree/master/resources/flash_cards/OO%20Design.apkg)
 
-Great for use while on-the-go.
+चलते-फिरते (on-the-go) इस्तेमाल करने के लिए यह बहुत बढ़िया है।
 
-### Coding Resource: Interactive Coding Challenges
+### Coding Resource: Interactive Coding Challenges (कोडिंग रिसोर्स: इंटरएक्टिव कोडिंग चैलेंजेस)
 
-Looking for resources to help you prep for the [**Coding Interview**](https://github.com/donnemartin/interactive-coding-challenges)?
+क्या आप [**Coding Interview**](https://github.com/donnemartin/interactive-coding-challenges) की तैयारी में मदद के लिए resources ढूंढ रहे हैं?
 
 <p align="center">
   <img src="images/b4YtAEN.png">
   <br/>
 </p>
 
-Check out the sister repo [**Interactive Coding Challenges**](https://github.com/donnemartin/interactive-coding-challenges), which contains an additional Anki deck:
+हमारी sister repo [**Interactive Coding Challenges**](https://github.com/donnemartin/interactive-coding-challenges) देखें, जिसमें एक अतिरिक्त Anki deck शामिल है:
 
 * [Coding deck](https://github.com/donnemartin/interactive-coding-challenges/tree/master/anki_cards/Coding.apkg)
 
-## Contributing
+## Contributing (कंट्रीब्यूट कैसे करें)
 
-> Learn from the community.
+> कम्युनिटी से सीखें।
 
-Feel free to submit pull requests to help:
+मदद करने के लिए बेझिझक pull requests सबमिट करें:
 
-* Fix errors
-* Improve sections
-* Add new sections
-* [Translate](https://github.com/donnemartin/system-design-primer/issues/28)
+* Errors ठीक करें
+* Sections को बेहतर बनाएं
+* नए sections जोड़ें
+* [Translate](https://github.com/donnemartin/system-design-primer/issues/28) करें
 
-Content that needs some polishing is placed [under development](#under-development).
+जिस content को थोड़े सुधार की ज़रूरत है, उसे [under development](#under-development) में रखा गया है।
 
-Review the [Contributing Guidelines](CONTRIBUTING.md).
+[Contributing Guidelines](CONTRIBUTING.md) देखें।
 
-## Index of system design topics
+## Index of system design topics (सिस्टम डिज़ाइन विषयों का इंडेक्स)
 
-> Summaries of various system design topics, including pros and cons.  **Everything is a trade-off**.
+> अलग-अलग system design topics की summaries, pros और cons के साथ। **Everything is a trade-off**.
 >
-> Each section contains links to more in-depth resources.
+> हर सेक्शन में और गहराई से पढ़ने के लिए links दिए गए हैं।
 
 <p align="center">
   <img src="images/jrUBAF7.png">
   <br/>
 </p>
 
-* [System design topics: start here](#system-design-topics-start-here)
-    * [Step 1: Review the scalability video lecture](#step-1-review-the-scalability-video-lecture)
-    * [Step 2: Review the scalability article](#step-2-review-the-scalability-article)
-    * [Next steps](#next-steps)
-* [Performance vs scalability](#performance-vs-scalability)
-* [Latency vs throughput](#latency-vs-throughput)
-* [Availability vs consistency](#availability-vs-consistency)
-    * [CAP theorem](#cap-theorem)
+* [System design topics: start here (सिस्टम डिज़ाइन: शुरुआत यहाँ से करें)](#system-design-topics-start-here)
+    * [Step 1: Scalability video lecture देखें](#step-1-review-the-scalability-video-lecture)
+    * [Step 2: Scalability article पढ़ें](#step-2-review-the-scalability-article)
+    * [Next steps (आगे के कदम)](#next-steps)
+* [Performance vs scalability (परफॉर्मेंस बनाम स्केलेबिलिटी)](#performance-vs-scalability)
+* [Latency vs throughput (लेटेंसी बनाम थ्रूपुट)](#latency-vs-throughput)
+* [Availability vs consistency (अवेलेबिलिटी बनाम कंसिस्टेंसी)](#availability-vs-consistency)
+    * [CAP theorem (कॅप थ्योरम)](#cap-theorem)
         * [CP - consistency and partition tolerance](#cp---consistency-and-partition-tolerance)
         * [AP - availability and partition tolerance](#ap---availability-and-partition-tolerance)
-* [Consistency patterns](#consistency-patterns)
+* [Consistency patterns (कंसिस्टेंसी पैटर्न्स)](#consistency-patterns)
     * [Weak consistency](#weak-consistency)
     * [Eventual consistency](#eventual-consistency)
     * [Strong consistency](#strong-consistency)
-* [Availability patterns](#availability-patterns)
+* [Availability patterns (अवेलेबिलिटी पैटर्न्स)](#availability-patterns)
     * [Fail-over](#fail-over)
     * [Replication](#replication)
     * [Availability in numbers](#availability-in-numbers)
-* [Domain name system](#domain-name-system)
-* [Content delivery network](#content-delivery-network)
+* [Domain name system (DNS)](#domain-name-system)
+* [Content delivery network (CDN)](#content-delivery-network)
     * [Push CDNs](#push-cdns)
     * [Pull CDNs](#pull-cdns)
-* [Load balancer](#load-balancer)
+* [Load balancer (लोड बैलेंसर)](#load-balancer)
     * [Active-passive](#active-passive)
     * [Active-active](#active-active)
     * [Layer 4 load balancing](#layer-4-load-balancing)
@@ -127,10 +127,10 @@ Review the [Contributing Guidelines](CONTRIBUTING.md).
     * [Horizontal scaling](#horizontal-scaling)
 * [Reverse proxy (web server)](#reverse-proxy-web-server)
     * [Load balancer vs reverse proxy](#load-balancer-vs-reverse-proxy)
-* [Application layer](#application-layer)
+* [Application layer (एप्लीकेशन लेयर)](#application-layer)
     * [Microservices](#microservices)
     * [Service discovery](#service-discovery)
-* [Database](#database)
+* [Database (डेटाबेस)](#database)
     * [Relational database management system (RDBMS)](#relational-database-management-system-rdbms)
         * [Master-slave replication](#master-slave-replication)
         * [Master-master replication](#master-master-replication)
@@ -144,7 +144,7 @@ Review the [Contributing Guidelines](CONTRIBUTING.md).
         * [Wide column store](#wide-column-store)
         * [Graph Database](#graph-database)
     * [SQL or NoSQL](#sql-or-nosql)
-* [Cache](#cache)
+* [Cache (कैशे)](#cache)
     * [Client caching](#client-caching)
     * [CDN caching](#cdn-caching)
     * [Web server caching](#web-server-caching)
@@ -166,8 +166,8 @@ Review the [Contributing Guidelines](CONTRIBUTING.md).
     * [User datagram protocol (UDP)](#user-datagram-protocol-udp)
     * [Remote procedure call (RPC)](#remote-procedure-call-rpc)
     * [Representational state transfer (REST)](#representational-state-transfer-rest)
-* [Security](#security)
-* [Appendix](#appendix)
+* [Security (सुरक्षा)](#security)
+* [Appendix (परिशिष्ट)](#appendix)
     * [Powers of two table](#powers-of-two-table)
     * [Latency numbers every programmer should know](#latency-numbers-every-programmer-should-know)
     * [Additional system design interview questions](#additional-system-design-interview-questions)
@@ -181,95 +181,95 @@ Review the [Contributing Guidelines](CONTRIBUTING.md).
 
 ## Study guide
 
-> Suggested topics to review based on your interview timeline (short, medium, long).
+> आपकी इंटरव्यू टाइमलाइन (short, medium, long) के आधार पर पढ़ने के लिए सुझाए गए topics।
 
 ![Imgur](images/OfVllex.png)
 
-**Q: For interviews, do I need to know everything here?**
+**Q: इंटरव्यू की तैयारी के लिए क्या मुझे यहाँ दी गई हर चीज़ जानना ज़रूरी है?**
 
-**A: No, you don't need to know everything here to prepare for the interview**.
+**A: नहीं, इंटरव्यू की तैयारी के लिए आपको यहाँ दी गई हर चीज़ जानना ज़रूरी नहीं है**।
 
-What you are asked in an interview depends on variables such as:
+इंटरव्यू में आपसे क्या पूछा जाएगा, यह इन चीज़ों (variables) पर निर्भर करता है:
 
-* How much experience you have
-* What your technical background is
-* What positions you are interviewing for
-* Which companies you are interviewing with
-* Luck
+* आपके पास कितना experience है
+* आपका technical background क्या है
+* आप किन positions/roles के लिए इंटरव्यू दे रहे हैं
+* आप किन कंपनियों में इंटरव्यू दे रहे हैं
+* किस्मत (Luck)
 
-More experienced candidates are generally expected to know more about system design.  Architects or team leads might be expected to know more than individual contributors.  Top tech companies are likely to have one or more design interview rounds.
+ज़्यादा experienced candidates से आमतौर पर system design के बारे में ज़्यादा जानने की उम्मीद की जाती है। Architects या team leads से individual contributors की तुलना में ज़्यादा जानने की उम्मीद हो सकती है। Top tech कंपनियों में एक या उससे ज़्यादा design interview rounds होने की संभावना होती है।
 
-Start broad and go deeper in a few areas.  It helps to know a little about various key system design topics.  Adjust the following guide based on your timeline, experience, what positions you are interviewing for, and which companies you are interviewing with.
+शुरुआत broad लेवल पर करें और कुछ areas में deeper जाएं। अलग-अलग key system design topics के बारे में थोड़ी जानकारी होना भी मददगार होता है। अपनी timeline, experience, positions, और companies के आधार पर नीचे दी गई गाइड को adjust करें।
 
-* **Short timeline** - Aim for **breadth** with system design topics.  Practice by solving **some** interview questions.
-* **Medium timeline** - Aim for **breadth** and **some depth** with system design topics.  Practice by solving **many** interview questions.
-* **Long timeline** - Aim for **breadth** and **more depth** with system design topics.  Practice by solving **most** interview questions.
+* **Short timeline** - System design topics के साथ **breadth** का लक्ष्य रखें। **कुछ (some)** इंटरव्यू सवाल solve करके practice करें।
+* **Medium timeline** - System design topics के साथ **breadth** और **थोड़ी depth** का लक्ष्य रखें। **कई सारे (many)** इंटरव्यू सवाल solve करके practice करें।
+* **Long timeline** - System design topics के साथ **breadth** और **ज्यादा depth** का लक्ष्य रखें। **लगभग सभी (most)** इंटरव्यू सवाल solve करके practice करें।
 
 | | Short | Medium | Long |
 |---|---|---|---|
-| Read through the [System design topics](#index-of-system-design-topics) to get a broad understanding of how systems work | :+1: | :+1: | :+1: |
-| Read through a few articles in the [Company engineering blogs](#company-engineering-blogs) for the companies you are interviewing with | :+1: | :+1: | :+1: |
-| Read through a few [Real world architectures](#real-world-architectures) | :+1: | :+1: | :+1: |
-| Review [How to approach a system design interview question](#how-to-approach-a-system-design-interview-question) | :+1: | :+1: | :+1: |
-| Work through [System design interview questions with solutions](#system-design-interview-questions-with-solutions) | Some | Many | Most |
-| Work through [Object-oriented design interview questions with solutions](#object-oriented-design-interview-questions-with-solutions) | Some | Many | Most |
-| Review [Additional system design interview questions](#additional-system-design-interview-questions) | Some | Many | Most |
+| Systems कैसे काम करते हैं, इसकी broad understanding पाने के लिए [System design topics](#index-of-system-design-topics) पढ़ें | :+1: | :+1: | :+1: |
+| जिन कंपनियों में आप इंटरव्यू दे रहे हैं, उनके लिए [Company engineering blogs](#company-engineering-blogs) के कुछ articles पढ़ें | :+1: | :+1: | :+1: |
+| कुछ [Real world architectures](#real-world-architectures) पढ़ें | :+1: | :+1: | :+1: |
+| [How to approach a system design interview question](#how-to-approach-a-system-design-interview-question) का review करें | :+1: | :+1: | :+1: |
+| [System design interview questions with solutions](#system-design-interview-questions-with-solutions) को solve करें | Some (कुछ) | Many (कई) | Most (ज्यादातर) |
+| [Object-oriented design interview questions with solutions](#object-oriented-design-interview-questions-with-solutions) को solve करें | Some (कुछ) | Many (कई) | Most (ज्यादातर) |
+| [Additional system design interview questions](#additional-system-design-interview-questions) का review करें | Some (कुछ) | Many (कई) | Most (ज्यादातर) |
 
-## How to approach a system design interview question
+## How to approach a system design interview question (सिस्टम डिज़ाइन इंटरव्यू सवाल को कैसे approach करें)
 
-> How to tackle a system design interview question.
+> सिस्टम डिज़ाइन इंटरव्यू सवाल को कैसे tackle करें।
 
-The system design interview is an **open-ended conversation**.  You are expected to lead it.
+System design interview एक **open-ended conversation** होता है। आपसे इसे lead करने की उम्मीद की जाती है।
 
-You can use the following steps to guide the discussion.  To help solidify this process, work through the [System design interview questions with solutions](#system-design-interview-questions-with-solutions) section using the following steps.
+Discussion को guide करने के लिए आप नीचे दिए गए steps का इस्तेमाल कर सकते हैं। इस process को solidify करने के लिए, इन steps का इस्तेमाल करते हुए [System design interview questions with solutions](#system-design-interview-questions-with-solutions) सेक्शन को solve करें।
 
 ### Step 1: Outline use cases, constraints, and assumptions
 
-Gather requirements and scope the problem.  Ask questions to clarify use cases and constraints.  Discuss assumptions.
+Requirements gather करें और problem का scope तय करें। Use cases और constraints clarify करने के लिए सवाल पूछें। Assumptions पर चर्चा करें।
 
-* Who is going to use it?
-* How are they going to use it?
-* How many users are there?
-* What does the system do?
-* What are the inputs and outputs of the system?
-* How much data do we expect to handle?
-* How many requests per second do we expect?
-* What is the expected read to write ratio?
+* इसे कौन इस्तेमाल करने वाला है (Who is going to use it)?
+* वे इसे कैसे इस्तेमाल करने वाले हैं (How are they going to use it)?
+* कितने users हैं?
+* System क्या करता है?
+* System के inputs और outputs क्या हैं?
+* हमें कितना data handle करने की उम्मीद है?
+* प्रति सेकंड कितने requests की उम्मीद है?
+* Expected read to write ratio क्या है?
 
 ### Step 2: Create a high level design
 
-Outline a high level design with all important components.
+सभी महत्वपूर्ण components के साथ एक high level design बनाएं।
 
-* Sketch the main components and connections
-* Justify your ideas
+* Main components और connections का sketch बनाएं
+* अपने ideas को justify करें
 
 ### Step 3: Design core components
 
-Dive into details for each core component.  For example, if you were asked to [design a url shortening service](solutions/system_design/pastebin/README.md), discuss:
+हर core component की details में जाएं। उदाहरण के लिए, अगर आपसे [url shortening service design करने](solutions/system_design/pastebin/README.md) को कहा गया हो, तो इन पर discuss करें:
 
-* Generating and storing a hash of the full url
-    * [MD5](solutions/system_design/pastebin/README.md) and [Base62](solutions/system_design/pastebin/README.md)
+* Full url का hash generate और store करना
+    * [MD5](solutions/system_design/pastebin/README.md) और [Base62](solutions/system_design/pastebin/README.md)
     * Hash collisions
-    * SQL or NoSQL
+    * SQL या NoSQL
     * Database schema
-* Translating a hashed url to the full url
+* Hashed url को full url में translate करना
     * Database lookup
-* API and object-oriented design
+* API और object-oriented design
 
 ### Step 4: Scale the design
 
-Identify and address bottlenecks, given the constraints.  For example, do you need the following to address scalability issues?
+दी गई constraints के हिसाब से bottlenecks को identify करें और address करें। उदाहरण के लिए, क्या आपको scalability issues हल करने के लिए निम्नलिखित की ज़रूरत है?
 
 * Load balancer
 * Horizontal scaling
 * Caching
 * Database sharding
 
-Discuss potential solutions and trade-offs.  Everything is a trade-off.  Address bottlenecks using [principles of scalable system design](#index-of-system-design-topics).
+संभावित solutions और trade-offs पर चर्चा करें। **Everything is a trade-off**। [Principles of scalable system design](#index-of-system-design-topics) का इस्तेमाल करके bottlenecks को address करें।
 
 ### Back-of-the-envelope calculations
 
-You might be asked to do some estimates by hand.  Refer to the [Appendix](#appendix) for the following resources:
+आपसे हाथ से कुछ estimates लगाने को कहा जा सकता है। नीचे दिए गए resources के लिए [Appendix](#appendix) देखें:
 
 * [Use back of the envelope calculations](http://highscalability.com/blog/2011/1/26/google-pro-tip-use-back-of-the-envelope-calculations-to-choo.html)
 * [Powers of two table](#powers-of-two-table)
@@ -277,18 +277,18 @@ You might be asked to do some estimates by hand.  Refer to the [Appendix](#appen
 
 ### Source(s) and further reading
 
-Check out the following links to get a better idea of what to expect:
+क्या expect करना है इसका बेहतर idea पाने के लिए नीचे दिए गए links देखें:
 
 * [How to ace a systems design interview](https://web.archive.org/web/20210505130322/https://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/)
 * [The system design interview](http://www.hiredintech.com/system-design)
 * [Intro to Architecture and Systems Design Interviews](https://www.youtube.com/watch?v=ZgdS0EUmn70)
 * [System design template](https://leetcode.com/discuss/career/229177/My-System-Design-Template)
 
-## System design interview questions with solutions
+## System design interview questions with solutions (सिस्टम डिज़ाइन इंटरव्यू सवाल व उनके solutions)
 
-> Common system design interview questions with sample discussions, code, and diagrams.
+> Common system design interview सवाल sample discussions, code, और diagrams के साथ।
 >
-> Solutions linked to content in the `solutions/` folder.
+> Solutions `solutions/` folder के content से linked हैं।
 
 | Question | |
 |---|---|
@@ -304,59 +304,59 @@ Check out the following links to get a better idea of what to expect:
 
 ### Design Pastebin.com (or Bit.ly)
 
-[View exercise and solution](solutions/system_design/pastebin/README.md)
+[Exercise और solution देखें](solutions/system_design/pastebin/README.md)
 
 ![Imgur](images/4edXG0T.png)
 
 ### Design the Twitter timeline and search (or Facebook feed and search)
 
-[View exercise and solution](solutions/system_design/twitter/README.md)
+[Exercise और solution देखें](solutions/system_design/twitter/README.md)
 
 ![Imgur](images/jrUBAF7.png)
 
 ### Design a web crawler
 
-[View exercise and solution](solutions/system_design/web_crawler/README.md)
+[Exercise और solution देखें](solutions/system_design/web_crawler/README.md)
 
 ![Imgur](images/bWxPtQA.png)
 
 ### Design Mint.com
 
-[View exercise and solution](solutions/system_design/mint/README.md)
+[Exercise और solution देखें](solutions/system_design/mint/README.md)
 
 ![Imgur](images/V5q57vU.png)
 
 ### Design the data structures for a social network
 
-[View exercise and solution](solutions/system_design/social_graph/README.md)
+[Exercise और solution देखें](solutions/system_design/social_graph/README.md)
 
 ![Imgur](images/cdCv5g7.png)
 
 ### Design a key-value store for a search engine
 
-[View exercise and solution](solutions/system_design/query_cache/README.md)
+[Exercise और solution देखें](solutions/system_design/query_cache/README.md)
 
 ![Imgur](images/4j99mhe.png)
 
 ### Design Amazon's sales ranking by category feature
 
-[View exercise and solution](solutions/system_design/sales_rank/README.md)
+[Exercise और solution देखें](solutions/system_design/sales_rank/README.md)
 
 ![Imgur](images/MzExP06.png)
 
 ### Design a system that scales to millions of users on AWS
 
-[View exercise and solution](solutions/system_design/scaling_aws/README.md)
+[Exercise और solution देखें](solutions/system_design/scaling_aws/README.md)
 
 ![Imgur](images/jj3A5N8.png)
 
-## Object-oriented design interview questions with solutions
+## Object-oriented design interview questions with solutions (ऑब्जेक्ट-ओरिएंटेड डिज़ाइन इंटरव्यू सवाल व solutions)
 
-> Common object-oriented design interview questions with sample discussions, code, and diagrams.
+> Common object-oriented design interview सवाल sample discussions, code, और diagrams के साथ।
 >
-> Solutions linked to content in the `solutions/` folder.
+> Solutions `solutions/` folder के content से linked हैं।
 
->**Note: This section is under development**
+>**Note: यह section under development है**
 
 | Question | |
 |---|---|
@@ -369,17 +369,17 @@ Check out the following links to get a better idea of what to expect:
 | Design a circular array | [Contribute](#contributing)  |
 | Add an object-oriented design question | [Contribute](#contributing) |
 
-## System design topics: start here
+## System design topics: start here (सिस्टम डिज़ाइन: शुरुआत यहाँ से करें)
 
-New to system design?
+System design में नए हैं?
 
-First, you'll need a basic understanding of common principles, learning about what they are, how they are used, and their pros and cons.
+सबसे पहले, आपको common principles की basic understanding की ज़रूरत होगी—यह समझना कि वे क्या हैं, उन्हें कैसे इस्तेमाल किया जाता है, और उनके pros और cons क्या हैं।
 
 ### Step 1: Review the scalability video lecture
 
 [Scalability Lecture at Harvard](https://www.youtube.com/watch?v=-W9F__D3oY4)
 
-* Topics covered:
+* Cover किए गए topics:
     * Vertical scaling
     * Horizontal scaling
     * Caching
@@ -391,7 +391,7 @@ First, you'll need a basic understanding of common principles, learning about wh
 
 [Scalability](https://web.archive.org/web/20221030091841/http://www.lecloud.net/tagged/scalability/chrono)
 
-* Topics covered:
+* Cover किए गए topics:
     * [Clones](https://web.archive.org/web/20220530193911/https://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones)
     * [Databases](https://web.archive.org/web/20220602114024/https://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database)
     * [Caches](https://web.archive.org/web/20230126233752/https://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache)
@@ -399,45 +399,45 @@ First, you'll need a basic understanding of common principles, learning about wh
 
 ### Next steps
 
-Next, we'll look at high-level trade-offs:
+इसके बाद, हम high-level trade-offs को देखेंगे:
 
 * **Performance** vs **scalability**
 * **Latency** vs **throughput**
 * **Availability** vs **consistency**
 
-Keep in mind that **everything is a trade-off**.
+ध्यान में रखें कि **everything is a trade-off**।
 
-Then we'll dive into more specific topics such as DNS, CDNs, and load balancers.
+फिर हम DNS, CDNs, और load balancers जैसे more specific topics में dive करेंगे।
 
-## Performance vs scalability
+## Performance vs scalability (परफॉर्मेंस बनाम स्केलेबिलिटी)
 
-A service is **scalable** if it results in increased **performance** in a manner proportional to resources added. Generally, increasing performance means serving more units of work, but it can also be to handle larger units of work, such as when datasets grow.<sup><a href=http://www.allthingsdistributed.com/2006/03/a_word_on_scalability.html>1</a></sup>
+कोई service तब **scalable** होती है यदि resources जोड़े जाने के अनुपात (proportional) में उसकी **performance** बढ़ती है। आम तौर पर, performance बढ़ाने का मतलब काम की ज़्यादा units को serve करना होता है, लेकिन इसका मतलब बड़ी units of work को handle करना भी हो सकता है, जैसे कि जब datasets बढ़ते हैं।<sup><a href=http://www.allthingsdistributed.com/2006/03/a_word_on_scalability.html>1</a></sup>
 
-Another way to look at performance vs scalability:
+Performance vs scalability को देखने का एक और तरीका:
 
-* If you have a **performance** problem, your system is slow for a single user.
-* If you have a **scalability** problem, your system is fast for a single user but slow under heavy load.
+* अगर आपको **performance** की समस्या है, तो आपका system एक single user के लिए भी slow है।
+* अगर आपको **scalability** की समस्या है, तो आपका system एक single user के लिए fast है लेकिन heavy load के तहत slow हो जाता है।
 
 ### Source(s) and further reading
 
 * [A word on scalability](http://www.allthingsdistributed.com/2006/03/a_word_on_scalability.html)
 * [Scalability, availability, stability, patterns](http://www.slideshare.net/jboner/scalability-availability-stability-patterns/)
 
-## Latency vs throughput
+## Latency vs throughput (लेटेंसी बनाम थ्रूपुट)
 
-**Latency** is the time to perform some action or to produce some result.
+**Latency** किसी action को perform करने या कोई result produce करने में लगने वाला समय है।
 
-**Throughput** is the number of such actions or results per unit of time.
+**Throughput** प्रति unit time में ऐसे actions या results की संख्या है।
 
-Generally, you should aim for **maximal throughput** with **acceptable latency**.
+आमतौर पर, आपको **acceptable latency** के साथ **maximal throughput** का लक्ष्य रखना चाहिए।
 
 ### Source(s) and further reading
 
 * [Understanding latency vs throughput](https://community.cadence.com/cadence_blogs_8/b/fv/posts/understanding-latency-vs-throughput)
 
-## Availability vs consistency
+## Availability vs consistency (अवेलेबिलिटी बनाम कंसिस्टेंसी)
 
-### CAP theorem
+### CAP theorem (कॅप थ्योरम)
 
 <p align="center">
   <img src="images/bgLMI2u.png">
@@ -445,23 +445,23 @@ Generally, you should aim for **maximal throughput** with **acceptable latency**
   <i><a href="https://robertgreiner.com/cap-theorem-revisited">Source: CAP theorem revisited</a></i>
 </p>
 
-In a distributed computer system, you can only support two of the following guarantees:
+एक distributed computer system में, आप नीचे दी गई guarantees में से केवल दो को ही support कर सकते हैं:
 
-* **Consistency** - Every read receives the most recent write or an error
-* **Availability** - Every request receives a response, without guarantee that it contains the most recent version of the information
-* **Partition Tolerance** - The system continues to operate despite arbitrary partitioning due to network failures
+* **Consistency** - हर read को सबसे recent write या कोई error प्राप्त होता है
+* **Availability** - हर request को response मिलता है, बिना इस guarantee के कि इसमें जानकारी का सबसे recent version शामिल है
+* **Partition Tolerance** - Network failures के कारण arbitrary partitioning के बावजूद system काम करना जारी रखता है
 
-*Networks aren't reliable, so you'll need to support partition tolerance.  You'll need to make a software tradeoff between consistency and availability.*
+*Networks reliable नहीं होते हैं, इसलिए आपको partition tolerance support करने की ज़रूरत होगी। आपको consistency और availability के बीच एक software tradeoff चुनना होगा।*
 
 #### CP - consistency and partition tolerance
 
-Waiting for a response from the partitioned node might result in a timeout error.  CP is a good choice if your business needs require atomic reads and writes.
+Partitioned node से response का इंतज़ार करने पर timeout error आ सकता है। अगर आपकी business needs को atomic reads और writes की आवश्यकता है, तो CP एक अच्छा choice है।
 
 #### AP - availability and partition tolerance
 
-Responses return the most readily available version of the data available on any node, which might not be the latest.  Writes might take some time to propagate when the partition is resolved.
+Responses किसी भी node पर data का सबसे readily available version लौटाते हैं, जो हो सकता है latest न हो। Partition resolve होने पर writes को propagate होने में कुछ समय लग सकता है।
 
-AP is a good choice if the business needs to allow for [eventual consistency](#eventual-consistency) or when the system needs to continue working despite external errors.
+अगर business को [eventual consistency](#eventual-consistency) की अनुमति देने की ज़रूरत है या जब system को external errors के बावजूद काम करना जारी रखने की ज़रूरत है, तो AP एक अच्छा choice है।
 
 ### Source(s) and further reading
 
@@ -470,21 +470,21 @@ AP is a good choice if the business needs to allow for [eventual consistency](#e
 * [CAP FAQ](https://github.com/henryr/cap-faq)
 * [The CAP theorem](https://www.youtube.com/watch?v=k-Yaq8AHlFA)
 
-## Consistency patterns
+## Consistency patterns (कंसिस्टेंसी पैटर्न्स)
 
-With multiple copies of the same data, we are faced with options on how to synchronize them so clients have a consistent view of the data.  Recall the definition of consistency from the [CAP theorem](#cap-theorem) - Every read receives the most recent write or an error.
+एक ही data की multiple copies के साथ, हमारे सामने यह विकल्प होता है कि उन्हें कैसे synchronize किया जाए ताकि clients को data का consistent view मिले। [CAP theorem](#cap-theorem) से consistency की definition याद करें - हर read को सबसे recent write या कोई error प्राप्त होता है।
 
 ### Weak consistency
 
-After a write, reads may or may not see it.  A best effort approach is taken.
+Write के बाद, reads इसे देख भी सकते हैं और नहीं भी। इसमें best effort approach अपनाई जाती है।
 
-This approach is seen in systems such as memcached.  Weak consistency works well in real time use cases such as VoIP, video chat, and realtime multiplayer games.  For example, if you are on a phone call and lose reception for a few seconds, when you regain connection you do not hear what was spoken during connection loss.
+यह approach memcached जैसे systems में देखी जाती है। Weak consistency VoIP, video chat, और realtime multiplayer games जैसे real time use cases में अच्छी तरह काम करती है। उदाहरण के लिए, अगर आप phone call पर हैं और कुछ सेकंड के लिए reception खो देते हैं, तो connection दोबारा मिलने पर आप वह नहीं सुनते जो connection loss के दौरान बोला गया था।
 
 ### Eventual consistency
 
-After a write, reads will eventually see it (typically within milliseconds).  Data is replicated asynchronously.
+Write के बाद, reads इसे eventually देखेंगे (आमतौर पर milliseconds के भीतर)। Data asynchronously replicate होता है।
 
-This approach is seen in systems such as DNS and email.  Eventual consistency works well in highly available systems.
+यह approach DNS और email जैसे systems में देखी जाती है। Eventual consistency highly available systems में अच्छी तरह काम करती है।
 
 ### Strong consistency
 
@@ -578,7 +578,7 @@ Availability (Total) = 1 - (1 - Availability (Foo)) * (1 - Availability (Bar))
 
 If both `Foo` and `Bar` each had 99.9% availability, their total availability in parallel would be 99.9999%.
 
-## Domain name system
+## Domain name system (डीएनएस)
 
 <p align="center">
   <img src="images/IOyLj4i.jpg">
@@ -586,29 +586,29 @@ If both `Foo` and `Bar` each had 99.9% availability, their total availability in
   <i><a href=http://www.slideshare.net/srikrupa5/dns-security-presentation-issa>Source: DNS security presentation</a></i>
 </p>
 
-A Domain Name System (DNS) translates a domain name such as www.example.com to an IP address.
+Domain Name System (DNS) किसी domain name जैसे www.example.com को IP address में translate करता है।
 
-DNS is hierarchical, with a few authoritative servers at the top level.  Your router or ISP provides information about which DNS server(s) to contact when doing a lookup.  Lower level DNS servers cache mappings, which could become stale due to DNS propagation delays.  DNS results can also be cached by your browser or OS for a certain period of time, determined by the [time to live (TTL)](https://en.wikipedia.org/wiki/Time_to_live).
+DNS hierarchical होता है, जिसमें top level पर कुछ authoritative servers होते हैं। जब आप lookup करते हैं तो आपका router या ISP जानकारी प्रदान करता है कि किस DNS server(s) से संपर्क करना है। Lower level DNS servers mappings को cache करते हैं, जो DNS propagation delays के कारण stale हो सकते हैं। DNS results को आपके browser या OS द्वारा भी एक निश्चित समय के लिए cache किया जा सकता है, जो [time to live (TTL)](https://en.wikipedia.org/wiki/Time_to_live) द्वारा तय होता है।
 
-* **NS record (name server)** - Specifies the DNS servers for your domain/subdomain.
-* **MX record (mail exchange)** - Specifies the mail servers for accepting messages.
-* **A record (address)** - Points a name to an IP address.
-* **CNAME (canonical)** - Points a name to another name or `CNAME` (example.com to www.example.com) or to an `A` record.
+* **NS record (name server)** - आपके domain/subdomain के लिए DNS servers को specify करता है।
+* **MX record (mail exchange)** - messages accept करने के लिए mail servers को specify करता है।
+* **A record (address)** - किसी name को IP address पर point करता है।
+* **CNAME (canonical)** - किसी name को दूसरे name या `CNAME` (example.com से www.example.com) या `A` record पर point करता है।
 
-Services such as [CloudFlare](https://www.cloudflare.com/dns/) and [Route 53](https://aws.amazon.com/route53/) provide managed DNS services.  Some DNS services can route traffic through various methods:
+[CloudFlare](https://www.cloudflare.com/dns/) और [Route 53](https://aws.amazon.com/route53/) जैसी services managed DNS services प्रदान करती हैं। कुछ DNS services विभिन्न तरीकों से traffic route कर सकती हैं:
 
 * [Weighted round robin](https://www.jscape.com/blog/load-balancing-algorithms)
-    * Prevent traffic from going to servers under maintenance
-    * Balance between varying cluster sizes
+    * Maintenance के तहत चल रहे servers पर traffic जाने से रोकना
+    * अलग-अलग cluster sizes के बीच संतुलन बनाना
     * A/B testing
 * [Latency-based](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy-latency.html)
 * [Geolocation-based](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy-geo.html)
 
 ### Disadvantage(s): DNS
 
-* Accessing a DNS server introduces a slight delay, although mitigated by caching described above.
-* DNS server management could be complex and is generally managed by [governments, ISPs, and large companies](http://superuser.com/questions/472695/who-controls-the-dns-servers/472729).
-* DNS services have recently come under [DDoS attack](http://dyn.com/blog/dyn-analysis-summary-of-friday-october-21-attack/), preventing users from accessing websites such as Twitter without knowing Twitter's IP address(es).
+* DNS server को access करने से थोड़ा delay आता है, हालांकि इसे ऊपर वर्णित caching द्वारा mitigate किया जाता है।
+* DNS server management जटिल हो सकता है और इसे आमतौर पर [governments, ISPs, और large companies](http://superuser.com/questions/472695/who-controls-the-dns-servers/472729) द्वारा manage किया जाता है।
+* DNS services हाल ही में [DDoS attack](http://dyn.com/blog/dyn-analysis-summary-of-friday-october-21-attack/) के दायरे में आई हैं, जिससे users Twitter के IP address को जाने बिना Twitter जैसी websites access नहीं कर पाए।
 
 ### Source(s) and further reading
 
@@ -616,7 +616,7 @@ Services such as [CloudFlare](https://www.cloudflare.com/dns/) and [Route 53](ht
 * [Wikipedia](https://en.wikipedia.org/wiki/Domain_Name_System)
 * [DNS articles](https://support.dnsimple.com/categories/dns/)
 
-## Content delivery network
+## Content delivery network (सीडीएन)
 
 <p align="center">
   <img src="images/h9TAuGI.jpg">
@@ -624,32 +624,32 @@ Services such as [CloudFlare](https://www.cloudflare.com/dns/) and [Route 53](ht
   <i><a href=https://www.creative-artworks.eu/why-use-a-content-delivery-network-cdn/>Source: Why use a CDN</a></i>
 </p>
 
-A content delivery network (CDN) is a globally distributed network of proxy servers, serving content from locations closer to the user.  Generally, static files such as HTML/CSS/JS, photos, and videos are served from CDN, although some CDNs such as Amazon's CloudFront support dynamic content.  The site's DNS resolution will tell clients which server to contact.
+Content Delivery Network (CDN) proxy servers का एक globally distributed network है, जो user के करीब की locations से content serve करता है। आमतौर पर HTML/CSS/JS, photos, और videos जैसी static files CDN से serve की जाती हैं, हालांकि Amazon के CloudFront जैसे कुछ CDNs dynamic content को भी support करते हैं। Site का DNS resolution clients को बताता है कि किस server से संपर्क करना है।
 
-Serving content from CDNs can significantly improve performance in two ways:
+CDNs से content serve करने से performance दो तरीकों से significantly improve हो सकती है:
 
-* Users receive content from data centers close to them
-* Your servers do not have to serve requests that the CDN fulfills
+* Users को उनके नज़दीकी data centers से content प्राप्त होता है
+* आपके servers को उन requests को serve नहीं करना पड़ता जिन्हें CDN पूरा कर देता है
 
 ### Push CDNs
 
-Push CDNs receive new content whenever changes occur on your server.  You take full responsibility for providing content, uploading directly to the CDN and rewriting URLs to point to the CDN.  You can configure when content expires and when it is updated.  Content is uploaded only when it is new or changed, minimizing traffic, but maximizing storage.
+Push CDNs को नया content तब प्राप्त होता है जब आपके server पर कोई बदलाव होता है। आप content provide करने, CDN पर सीधे upload करने और CDN को point करने के लिए URLs को rewrite करने की पूरी जिम्मेदारी लेते हैं। आप configure कर सकते हैं कि content कब expire होगा और कब update होगा। Content तभी upload होता है जब वह नया हो या बदला हो, जिससे traffic minimize होता है लेकिन storage maximize होता है।
 
-Sites with a small amount of traffic or sites with content that isn't often updated work well with push CDNs.  Content is placed on the CDNs once, instead of being re-pulled at regular intervals.
+कम traffic वाली sites या ऐसी sites जिनका content अक्सर update नहीं होता, push CDNs के साथ अच्छी तरह काम करती हैं। Content को regular intervals पर re-pull करने के बजाय एक बार CDN पर रख दिया जाता है।
 
 ### Pull CDNs
 
-Pull CDNs grab new content from your server when the first user requests the content.  You leave the content on your server and rewrite URLs to point to the CDN.  This results in a slower request until the content is cached on the CDN.
+Pull CDNs आपके server से तब नया content grab करते हैं जब पहला user content request करता है। आप content को अपने server पर छोड़ते हैं और CDN को point करने के लिए URLs को rewrite करते हैं। जब तक content CDN पर cache नहीं हो जाता, तब तक request थोड़ी slower होती है।
 
-A [time-to-live (TTL)](https://en.wikipedia.org/wiki/Time_to_live) determines how long content is cached.  Pull CDNs minimize storage space on the CDN, but can create redundant traffic if files expire and are pulled before they have actually changed.
+एक [time-to-live (TTL)](https://en.wikipedia.org/wiki/Time_to_live) तय करता है कि content कितने समय तक cache रहेगा। Pull CDNs CDN पर storage space को minimize करते हैं, लेकिन अगर files expire हो जाती हैं और उनके असल में बदलने से पहले ही उन्हें pull कर लिया जाता है तो redundant traffic create हो सकता है।
 
-Sites with heavy traffic work well with pull CDNs, as traffic is spread out more evenly with only recently-requested content remaining on the CDN.
+Heavy traffic वाली sites pull CDNs के साथ अच्छी तरह काम करती हैं, क्योंकि traffic अधिक evenly spread होता है और केवल हाल ही में request किया गया content ही CDN पर रहता है।
 
 ### Disadvantage(s): CDN
 
-* CDN costs could be significant depending on traffic, although this should be weighed with additional costs you would incur not using a CDN.
-* Content might be stale if it is updated before the TTL expires it.
-* CDNs require changing URLs for static content to point to the CDN.
+* Traffic के आधार पर CDN costs significant हो सकती हैं, हालांकि इसे उन अतिरिक्त costs के साथ तौलना चाहिए जो CDN का उपयोग न करने पर उठानी पड़तीं।
+* अगर content को TTL expire होने से पहले update किया जाता है तो वह stale हो सकता है।
+* CDNs के लिए static content के URLs को बदल कर CDN की ओर point करने की ज़रूरत होती है।
 
 ### Source(s) and further reading
 
