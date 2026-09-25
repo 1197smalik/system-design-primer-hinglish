@@ -1,49 +1,49 @@
 *[English](README.md) ∙ [हिन्दी (Hinglish)](README-hinglish.md) ∙ [日本語](README-ja.md) ∙ [简体中文](README-zh-Hans.md) ∙ [繁體中文](README-zh-TW.md) | [العَرَبِيَّة‎](https://github.com/donnemartin/system-design-primer/issues/170) ∙ [বাংলা](https://github.com/donnemartin/system-design-primer/issues/220) ∙ [Português do Brasil](https://github.com/donnemartin/system-design-primer/issues/40) ∙ [Deutsch](https://github.com/donnemartin/system-design-primer/issues/186) ∙ [ελληνικά](https://github.com/donnemartin/system-design-primer/issues/130) ∙ [עברית](https://github.com/donnemartin/system-design-primer/issues/272) ∙ [Italiano](https://github.com/donnemartin/system-design-primer/issues/104) ∙ [한국어](https://github.com/donnemartin/system-design-primer/issues/102) ∙ [فارسی](https://github.com/donnemartin/system-design-primer/issues/110) ∙ [Polski](https://github.com/donnemartin/system-design-primer/issues/68) ∙ [русский язык](https://github.com/donnemartin/system-design-primer/issues/87) ∙ [Español](https://github.com/donnemartin/system-design-primer/issues/136) ∙ [ภาษาไทย](https://github.com/donnemartin/system-design-primer/issues/187) ∙ [Türkçe](https://github.com/donnemartin/system-design-primer/issues/39) ∙ [tiếng Việt](https://github.com/donnemartin/system-design-primer/issues/127) ∙ [Français](https://github.com/donnemartin/system-design-primer/issues/250) | [Add Translation](https://github.com/donnemartin/system-design-primer/issues/28)*
 
-**Help [translate](TRANSLATIONS.md) this guide!**
+**इस guide को [translate](TRANSLATIONS.md) करने में मदद करें!**
 
-# The System Design Primer
+# The System Design Primer (सिस्टम डिज़ाइन प्राइमर)
 
 <p align="center">
   <img src="images/jj3A5N8.png">
   <br/>
 </p>
 
-## Motivation
+## Motivation (प्रेरणा)
 
-> Learn how to design large-scale systems.
+> बड़े पैमाने के सिस्टम (large-scale systems) को डिज़ाइन करना सीखें।
 >
-> Prep for the system design interview.
+> सिस्टम डिज़ाइन इंटरव्यू के लिए तैयारी करें।
 
-### Learn how to design large-scale systems
+### बड़े पैमाने के सिस्टम (large-scale systems) को कैसे डिज़ाइन करें, यह सीखें
 
-Learning how to design scalable systems will help you become a better engineer.
+स्केलेबल सिस्टम (scalable systems) डिज़ाइन करना सीखने से आपको एक बेहतर इंजीनियर बनने में मदद मिलेगी।
 
-System design is a broad topic.  There are a **vast number of resources scattered throughout the web** on system design principles.
+System design काफी broad topic है। इंटरनेट पर system design principles को लेकर **बहुत सारा material और resources इधर-उधर बिखरे हुए** हैं।
 
-This repo is an **organized collection** of resources to help you learn how to build systems at scale.
+यह repo resources का एक **well-organized collection** है, जो आपको बड़े पैमाने पर systems build करना सीखने में मदद करेगा।
 
-### Learn from the open source community
+### ओपन सोर्स समुदाय (open source community) से सीखें
 
-This is a continually updated, open source project.
+यह एक लगातार अपडेट होने वाला, ओपन सोर्स प्रोजेक्ट है।
 
-[Contributions](#contributing) are welcome!
+[Contributions](#contributing) करें!
 
-### Prep for the system design interview
+### Prep for the system design interview (सिस्टम डिज़ाइन इंटरव्यू के लिए तैयारी)
 
-In addition to coding interviews, system design is a **required component** of the **technical interview process** at many tech companies.
+Coding interviews के अलावा, system design कई टेक कंपनियों में **technical interview process** का एक **आवश्यक हिस्सा** है।
 
-**Practice common system design interview questions** and **compare** your results with **sample solutions**: discussions, code, and diagrams.
+**आम सिस्टम डिज़ाइन इंटरव्यू प्रश्नों का अभ्यास करें** और अपने परिणामों की तुलना **sample solutions** से करें: discussions, code, और diagrams.
 
-Additional topics for interview prep:
+Additional topics for interview prep (सिस्टम डिज़ाइन इंटरव्यू के लिए तैयारी):
 
-* [Study guide](#study-guide)
-* [How to approach a system design interview question](#how-to-approach-a-system-design-interview-question)
-* [System design interview questions, **with solutions**](#system-design-interview-questions-with-solutions)
-* [Object-oriented design interview questions, **with solutions**](#object-oriented-design-interview-questions-with-solutions)
-* [Additional system design interview questions](#additional-system-design-interview-questions)
+* [Study guide (पढ़ाई और तैयारी की गाइड)](#study-guide)
+* [System design interview questions को कैसे approach करें](#how-to-approach-a-system-design-interview-question)
+* [System design interview questions, **solutions के साथ**](#system-design-interview-questions-with-solutions)
+* [Object-oriented design interview questions, **solutions के साथ**](#object-oriented-design-interview-questions-with-solutions)
+* [कुछ और additional system design interview questions](#additional-system-design-interview-questions)
 
-## Anki flashcards
+## Anki flashcards (एन्की फ़्लैशकार्ड्स)
 
 <p align="center">
   <img src="images/zdCAkB3.png">
